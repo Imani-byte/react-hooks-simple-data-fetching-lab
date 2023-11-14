@@ -12,11 +12,7 @@ function App() {
 
   return (
     <div>
-      {dogImage ? (
-        <img src={dogImage} alt="A Random Dog" />
-      ) : (
-        <p>Loading...</p>
-      )}
+      {dogImage ? (<img src={dogImage} alt="A Random Dog" />) :(<p>Loading...</p>)}
     </div>
   );
 }
